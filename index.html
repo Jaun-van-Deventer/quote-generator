@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Quote Generator</h1>
+    <div class="quote-container">
+      <img id="authorImage" src="images/no-profile-image.png" />
+      <div class="text-container">
+        <p class="author" id="author">Author Name</p>
+        <p class="quote" id="quote">Quote goes here</p>
+      </div>
+    </div>
+    <input type="text" id="keyword" placeholder="Enter keyword" />
+    <br />
+    <button id="genButton" onclick="generateQuote()">Generate Quote</button>
+    <button class="download-button" onclick="downloadQuote()">
+      Download Quote Image
+    </button>
+    <button onclick="toggleBackground()">Toggle Background</button>
+
+    <script src="script.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  </body>
+</html>

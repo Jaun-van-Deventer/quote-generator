@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.quote-container {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#authorImage {
+  width: 60px; /* Set the width to your desired size */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  float: left;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.text-container {
+  overflow: hidden; /* Clear the float to contain the text */
+}
+
+.author {
+  display: inline-block; /* Make the author name inline with the text */
+  margin: 0; /* Remove default margin */
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  margin: 0;
+}
+.generate-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#keyword {
+  margin-top: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 520px;
+}
+
+.background1 {
+  background-color: #f2f2f2;
+}
+
+.background2 {
+  background-color: #ffe6cc;
+}
+
+.background3 {
+  background-color: #d9ead3;
+}
+
+.background4 {
+  background-color: #cfe2f3;
+}
+
+.background5 {
+  background-color: #fadbd8;
+}
